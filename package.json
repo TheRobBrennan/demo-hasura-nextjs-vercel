@@ -18,7 +18,7 @@
     "deploy:dev": "npx vercel",
     "deploy:prod": "npx vercel --prod",
     "open:all": "npm repo && npm run open:auth0 && npm run open:heroku && npm run open:vercel",
-    "open:auth0": "open https://manage.auth0.com/dashboard/us/demo-explore-hasura-apollo-nextjs/",
+    "open:auth0": "open https://manage.auth0.com/dashboard/us/demo-explore-hasura-apollo-nextjs/applications/ovgeVQWyxl8Bs4EPpbBE6cbOL2xHZkFf/settings",
     "open:heroku": "open https://dashboard.heroku.com/apps",
     "open:vercel": "open https://vercel.com/therobbrennan/demo-hasura-nextjs-vercel"
   },
