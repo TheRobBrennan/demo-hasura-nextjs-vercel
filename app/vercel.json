@@ -1,0 +1,12 @@
+{
+  "build": {
+    "env": {
+      "DOMAIN": "",
+      "AUTH0_DOMAIN": "@dhnv-auth0-domain",
+      "AUTH0_AUDIENCE": "@dhnv-auth0-audience",
+      "AUTH0_CLIENT_ID": "@dhnv-auth0-client-id",
+      "AUTH0_CLIENT_SECRET": "@dhnv-auth0-client-secret",
+      "SESSION_COOKIE_SECRET": "@dhnv-session-cookie-secret"
+    }
+  }
+}

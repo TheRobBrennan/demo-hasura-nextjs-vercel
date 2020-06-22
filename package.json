@@ -1,0 +1,30 @@
+{
+  "name": "demo-hasura-nextjs-vercel",
+  "version": "0.0.0",
+  "description": "An example project using Hasura, Auth0, Apollo, Next.js, and Vercel.",
+  "keywords": [
+    "hasura",
+    "auth0",
+    "nextjs",
+    "apollo",
+    "vercel"
+  ],
+  "author": "Rob Brennan <rob@therobbrennan.com> (therobbrennan.com)",
+  "scripts": {
+    "start": "npm run start:dev",
+    "start:dev": "cd app && npm run dev",
+    "start:prod": "cd app && npm start",
+    "deploy": "npm run deploy:dev",
+    "deploy:dev": "npx vercel",
+    "deploy:prod": "npx vercel --prod"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRobBrennan/demo-hasura-nextjs-vercel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheRobBrennan/demo-hasura-nextjs-vercel/issues"
+  },
+  "homepage": "https://github.com/TheRobBrennan/demo-hasura-nextjs-vercel#readme"
+}
