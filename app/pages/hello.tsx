@@ -1,7 +1,5 @@
 import { NextPage } from "next"
 
-import Header from "../components/Header"
-
 // Material UI
 import Layout from "../material-ui/layouts/Layout"
 
