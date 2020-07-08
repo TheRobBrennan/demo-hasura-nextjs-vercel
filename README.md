@@ -31,6 +31,9 @@ AUTH0_CLIENT_ID=
 AUTH0_CLIENT_SECRET=
 AUTH0_DOMAIN=
 
+# Google Analytics
+GOOGLE_ANALYTICS_TRACKING_ID=UA-156456153-4
+
 # ------------------------------------------------------ #
 #          DO NOT DEFINE THESE IN YOUR .env FILE         #
 # ------------------------------------------------------ #
