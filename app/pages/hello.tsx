@@ -5,16 +5,9 @@ import Header from "../components/Header"
 // Material UI
 import Container from "@material-ui/core/Container"
 import Box from "@material-ui/core/Box"
+import Layout from "../material-ui/Layout"
 
 const HelloPage: NextPage = () => {
-  return (
-    <Container>
-      <Box my={4}>
-        <Header />
-        <hr />
-        Hello from TypeScript!
-      </Box>
-    </Container>
-  )
+  return <Layout>Hello from TypeScript!</Layout>
 }
 export default HelloPage
