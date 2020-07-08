@@ -12,7 +12,7 @@ Router.events.on("routeChangeComplete", (url) => gtag.pageview(url))
 // Material UI
 import { ThemeProvider } from "@material-ui/core/styles"
 import CssBaseline from "@material-ui/core/CssBaseline"
-import theme from "../material-ui/theme"
+import theme from "../material-ui/theme/theme"
 
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps }) {
