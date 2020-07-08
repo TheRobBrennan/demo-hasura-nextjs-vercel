@@ -20,7 +20,7 @@ import Footer from "../components/Footer"
 import BootstrapHeader from "../../components/Header"
 
 interface ILayout {
-  children?: JSX.Element[] | JSX.Element
+  children?: string | JSX.Element | JSX.Element[]
 }
 
 const Layout: SFC<ILayout> = ({ children }) => {
