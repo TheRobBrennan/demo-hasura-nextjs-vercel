@@ -20,7 +20,12 @@
     "open:all": "npm run open:auth0 && npm run open:heroku && npm run open:vercel && npm repo",
     "open:auth0": "open https://manage.auth0.com/dashboard/us/demo-explore-hasura-apollo-nextjs/applications/ovgeVQWyxl8Bs4EPpbBE6cbOL2xHZkFf/settings",
     "open:heroku": "open https://dashboard.heroku.com/apps",
-    "open:vercel": "open https://vercel.com/therobbrennan/demo-hasura-nextjs-vercel"
+    "open:vercel": "open https://vercel.com/therobbrennan/demo-hasura-nextjs-vercel",
+    "test": "cd app && npm run test",
+    "test:ci": "cd app && npm run test:ci",
+    "test:coverage": "cd app && npm run test:coverage",
+    "test:coverage:view": "cd app && npm run test:coverage:view",
+    "test:watch": "cd app && npm run test:watch"
   },
   "license": "ISC",
   "repository": {
