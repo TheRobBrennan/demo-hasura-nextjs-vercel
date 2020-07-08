@@ -8,16 +8,16 @@ import {
   TRB_APPLICATION_TYPE,
   TRB_LOGO_URL,
   TRB_TWITTER_ACCOUNT,
-} from "../config/constants"
+} from "../../config/constants"
 
 // Material UI
 import Container from "@material-ui/core/Container"
 import Box from "@material-ui/core/Box"
-import Header from "./components/Header"
-import Footer from "./components/Footer"
+import Header from "../components/Header"
+import Footer from "../components/Footer"
 
 // Bootstrap
-import BootstrapHeader from "../components/Header"
+import BootstrapHeader from "../../components/Header"
 
 interface ILayout {
   children?: JSX.Element[] | JSX.Element
