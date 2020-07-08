@@ -1,5 +1,6 @@
 import Router from "next/router"
 
+// TODO: Remove Bootstrap from this project
 // Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../styles/App.css"
